@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = psw.rabbitmq
+build_property.ProjectDir = /home/developer/git/task/utask/construction_microservice/PaymentMS/lib/librabbitmq/src/lib.rabbitmq/

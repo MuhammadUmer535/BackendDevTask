@@ -1,0 +1,47 @@
+{
+  "GlobalConfiguration": {
+    "RequestIdKey": "x-correlation-id",
+    "UseServiceDiscovery": false,
+    "DownstreamScheme": "http",
+    "RequireHttpsMetadata": false
+  },
+
+  "RateLimitOptions": {
+    "ClientWhitelist": [],
+    "EnableRateLimiting": true,
+    "Period": "1s",
+    "HttpStatusCode": 428,
+    "QuotaExceededMessage": "Too many requests...",
+    "PeriodTimespan": 1,
+    "Limit": 1
+  },
+
+  "HttpHandlerOptions": {
+    "UseTracing": true
+  },
+
+  "LoadBalancerOptions": {
+    "Type": "LeastConnection",
+    "Key": null,
+    "Expiry": 0
+  },
+
+  "QoSOptions": {
+    "ExceptionsAllowedBeforeBreaking": 3,
+    "DurationOfBreak": 10000,
+    "TimeoutValue": 5000
+  },
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "auth",
+      "Config": [
+        {
+          "Name": "Users API",
+          "Version": "v1",
+          "Url": "http://users_service/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/developer/git/task/utask/construction_microservice/PaymentMS/lib/librabbitmq/src/lib.rabbitmq/psw.rabbitmq.csproj": {}
+  },
+  "projects": {
+    "/home/developer/git/task/utask/construction_microservice/PaymentMS/lib/librabbitmq/src/lib.rabbitmq/psw.rabbitmq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/developer/git/task/utask/construction_microservice/PaymentMS/lib/librabbitmq/src/lib.rabbitmq/psw.rabbitmq.csproj",
+        "projectName": "psw.rabbitmq",
+        "projectPath": "/home/developer/git/task/utask/construction_microservice/PaymentMS/lib/librabbitmq/src/lib.rabbitmq/psw.rabbitmq.csproj",
+        "packagesPath": "/home/developer/.nuget/packages/",
+        "outputPath": "/home/developer/git/task/utask/construction_microservice/PaymentMS/lib/librabbitmq/src/lib.rabbitmq/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/developer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

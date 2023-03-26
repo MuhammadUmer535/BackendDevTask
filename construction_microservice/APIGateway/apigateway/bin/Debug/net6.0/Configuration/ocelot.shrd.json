@@ -1,0 +1,25 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/{everything}",
+      "UpstreamHttpMethod": [ "Post", "Get", "Put", "Delete" ],
+      "DownstreamPathTemplate": "/Construction/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+            "Host": "localhost",
+            "Port": 5288
+        }
+      ],
+
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "SwaggerKey": "shrd",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+    }
+  ]
+}

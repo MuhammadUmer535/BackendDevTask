@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = lib.rabbitmq
+build_property.ProjectDir = C:\Users\muham\Downloads\construction_microservice\construction_microservice\PaymentMS\lib\librabbitmq\src\lib.rabbitmq\
